@@ -1,0 +1,104 @@
+.App{
+    width: 50%;
+    margin: 2em auto;
+    background-color: #394049;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.App .todo-header{
+    text-align: center;
+    padding: 0.5em;
+    border-bottom: 1px solid #2c3035;
+}
+
+.App .todo-main .form-todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.App .todo-main .form-todo form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.App .todo-main .form-todo h2{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.App .todo-main .form-todo label{
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: .2rem 0;
+}
+.App .todo-main .form-todo input{
+    border: 1px solid #222;
+    border-radius: 2px;
+    background-color: #2c3035;
+    padding: 0.5rem;
+    margin-bottom: .5rem;
+    color: #dfdfdf;
+}
+
+.App .todo-main .form-todo input[type="submit"]{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #333;
+    color: #eee;
+    border-radius: 5px;
+    border: 1px solid #222;
+    cursor: pointer;
+}
+
+.App .todo-main .list-todo{
+    padding: 1rem 2rem;
+}
+
+.App .todo-main .list-todo h2{
+    padding: 1rem 0;
+    margin: 1rem 0;
+    border-top: 1px solid #2c3035;
+    text-align: center;
+
+}
+
+
+.App .todo-main .list-todo .todo{
+    border-bottom: 1px solid #444;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+.App .todo-main .list-todo .todo h3{
+    padding: .2rem 0;
+}
+
+.App .todo-main .list-todo .todo .todo-done{
+    text-decoration: line-through;
+    color: rgb(240, 98, 146);
+}
+
+.App .todo-main .list-todo .todo p{
+    font-style: italic;
+    font-size: .7rem;
+    padding: .2rem 0;
+    margin-bottom: .3rem;
+}
+
+.App .todo-main .list-todo .todo svg{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.App .todo-main .list-todo .todo svg:hover{
+    color: rgb(240, 98, 146);
+}
